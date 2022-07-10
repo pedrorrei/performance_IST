@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Project IST</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+    <link rel="icon" href="IST_Logo.png" />
+    <link rel="stylesheet" href="../Styles/styles.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
+    <link rel="stylesheet" href="../Scripts/jquery-ui-1.13.0/jquery-ui.min.css" />
+    <style>
+        .ui-datepicker {
+            width: 500px;
+            padding: 50px 20px;
+            background-color: #212529;
+            color: white;
+        }
+        
+        select.ui-datepicker-year {
+            border-radius: 10px;
+        }
+
+
+        .block {
+            display: block;
+            width: 20%;
+            border: none;
+            background-color:#2958af;
+            color: rgb(34, 7, 109);
+            padding:20px 10px 20px 10px;
+            font-size: 16px;
+            cursor: pointer;
+            text-align: center;
+            border-radius: 10px;
+            margin-right:auto;
+            margin-left:auto;
+}
+.block:hover {
+            background-color: rgb(228, 153, 73);
+            color: rgb(255, 255, 255);
+}
+
+
+
+
+.block2 {
+ display: block;
+ width: 20%;
+ border: dotted;
+ background-color:#bccfee;
+ color:red;
+ padding:20px 10px 20px 10px;
+ font-size: 16px;
+ cursor: pointer;
+ text-align: center;
+ border-radius: 10px;
+ margin-right:auto;
+ margin-left:auto;
+ font-size: 20px;
+ margin-left: 50px;
+}
+
+.block2:hover {
+  background-color: #FF0000;
+  color: white;
+}
+.block3 {
+ display: block;
+ width: 20%;
+ border: dotted;
+ background-color:#bccfee;
+ color: orange;
+ padding:20px 10px 20px 10px;
+ font-size: 16px;
+ cursor: pointer;
+ text-align: center;
+ border-radius: 10px;
+ margin-right:auto;
+ margin-left:auto;
+ font-size: 20px;
+ margin-left: 50px;
+}
+
+.block3:hover {
+  background-color: orange;
+  color: white;
+}
+.block4 {
+ display: block;
+ width: 20%;
+ border: dotted;
+ background-color:#bccfee;
+ color:yellow;
+ padding:20px 10px 20px 10px;
+ font-size: 16px;
+ cursor: pointer;
+ text-align: center;
+ border-radius: 10px;
+ margin-right:auto;
+ margin-left:auto;
+ font-size: 20px;
+ margin-left: 50px;
+}
+
+.block4:hover {
+  background-color: yellow;
+  color: black;
+}
+
+    </style>
+</head>
+
+<body style="background-color: #8ab4f8">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="main.html"><img  src="IST_Logo.png"   style="width: 40px"  alt="Instituto Superior Técnico" /></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+            <a class="nav-link" aria-current="page" href="main.html"
+              >Home</a
+            >
+            <a class="nav-link" href="aboutus.html">About the Project</a>
+                    
+              </ul>
+            </li>  
+                </div>
+                
+            </div>
+        </div>
+    </nav>
+
+
+    <img style="width:600px ; height:500px ; margin-left: 750px; margin-top: -20px ; " src="Image1.png" alt="teste">
+    <h2 style="margin-top: -350px ;  margin-left: 30px  ;color:#1a5a9a; font-size: 25px;">CHOOSE WHAT YOU WANT TO CALCULATE:</h2>
+    <br>
+    <button class="block2" onclick="window.location.href='QNH.html'">QNH</button>
+    <br>
+    <button class="block3" onclick="window.location.href='QFE.html'">QFE</button>
+    <br>
+    <button class="block4" onclick="window.location.href='ELEVATION.html'">ELEVATION</button>
+
+
+  
+
+    
+    
+
+
+
+    
+    <!-- navbar no fim -->
+    <div class="footer">
+      <!-- Footer -->
+      <footer class="bg-dark text-center text-white mt-2">
+       
+    <!-- Grid container -->
+    </footer>
+    </div>
+    <!-- scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="../Scripts/knockout-3.5.1.js"></script>
+    <script src="../Scripts/jquery-3.6.0.min.js"></script>
+    <script src="../Scripts/jquery-ui-1.13.0/jquery-ui.min.js"></script>
+    <script src="../Scripts/script1.js"></script>
+    <script src="../Scripts/home.js"></script>
+</body>
+
+</html>
