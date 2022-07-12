@@ -8,9 +8,9 @@ function Calcula1() {
     console.log(x);
     var y = ((288.15 / 0.0065)*x + parseFloat(v2))/288.15;
     console.log(y);
-    var z = (1-0.0065) * y ;  
+    var z = 1-0.0065 * y ;  
     console.log(z);
-    var w =  101235 * Math.pow(z,5.25588);
+    var w =  101325 * Math.pow(z,5.25588);
     console.log(w);
     res.value = w;
 }
@@ -20,6 +20,6 @@ function Calcula2() {
     var res2 = document.getElementById('res2');
     var v22= 1- 0.0065*(parseFloat(v11)+parseFloat(v21))/288.15;
     console.log(res2.value);
-    res2.value= 101235 * Math.pow(v22, 5.25588);
+    res2.value= 101325 * Math.pow(v22, 5.25588);
 }
 
