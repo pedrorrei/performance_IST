@@ -8,7 +8,7 @@ function Calcula1() {
     console.log(x);
     var y = ((288.15 / 0.0065)*x + parseFloat(v2))/288.15;
     console.log(y);
-    var z = (1-0.0065) * z ;  
+    var z = (1-0.0065) * y ;  
     console.log(z);
     var w =  101235 * Math.pow(z,5.25588);
     console.log(w);
