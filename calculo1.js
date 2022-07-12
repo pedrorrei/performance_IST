@@ -7,7 +7,7 @@ function Calcula1() {
     var y = (288.15 / 0.0065)*k ;
     var z = (y - parseFloat(v2))/ 288.15;
     var t = 1-(0.0065) * z;
-    var w =  101235 * Math.pow(t, 5.25588);
+    var w =  101325 * Math.pow(t, 5.25588);
     res.value = w;
 }
 function Calcula2() {
@@ -16,6 +16,6 @@ function Calcula2() {
     var res2 = document.getElementById('res2');
     var v22 = (1- 0.0065  * ((-1) *parseFloat(v11)+parseFloat(v21))/288.15);
     console.log(res2.value);
-    res2.value= 101235 * Math.pow(v22,5.25588);
+    res2.value= 101325 * Math.pow(v22,5.25588);
 
 }
