@@ -3,10 +3,15 @@ function Calcula1() {
     var v2 = document.getElementById('ELEVATION').value;
     var res = document.getElementById('res');
     var t = (parseFloat(v1) / 101325);
+    console.log(t);
     var x = Math.pow(t, 0.19026309) * (-1) + 1;
+    console.log(x);
     var y = ((288.15 / 0.0065)*x + parseFloat(v2))/288.15;
-    var z = (1-(0.0065 * z));           
+    console.log(y);
+    var z = (1-(0.0065 * z));  
+    console.log(z);
     var w =  101235 * Math.pow(z,5.25588);
+    console.log(w);
     res.value = w;
 }
 function Calcula2() {
