@@ -1,5 +1,8 @@
 function Calcula1() {
-        var x = (parseFloat(v1) / 101325);
+    var v1 = document.getElementById('QFE').value;
+    var v2 = document.getElementById('el').value;
+    var res = document.getElementById('res');
+    var x = (parseFloat(v1) / 101325);
     var k = Math.pow(x,0.19026309) * (-1) + 1;
     var y = (288.15 / 0.0065)*k ;
     var z = (y - parseFloat(v2))/ 288.15;
