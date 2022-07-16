@@ -3,8 +3,7 @@ function Calcula1() {
     var v2 = document.getElementById('ELEVATION').value;
     var res = document.getElementById('res');
     var t = (parseFloat(v1) / 101325);
-    if (v1 == null )
-alert("Insira um Valor");
+  
 
     console.log(t);
     var x = Math.pow(t, 0.19026309) * (-1) + 1;
